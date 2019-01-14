@@ -1,0 +1,77 @@
+% LaTeX resume using res.cls
+\documentclass[line,margin]{resume}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font
+
+\begin{document}
+
+\name{H\'{e}lder Tavares da Silva}
+% \address used twice to have two lines of address
+\address{Currently living in Porto, Portugal}
+\address{helder.tavares.silva@gmail.com or +351917534732}
+
+\begin{resume}
+
+\section{OBJECTIVE} Web Software Development, mainly back-end (Python, Ruby, Node.js).
+
+\section{EXPERIENCE}
+    {\sl\bf Senior Software developer, Kentra Technologies Portugal} \hfill 17/11/2012 to 31/01/2014
+    \begin{itemize}  \itemsep -2pt % reduce space between items
+        \item Worked on an information system for analyses laboratories. It was completely built from scratch using Ruby on Rails (version 3.2) and various gems (simple form, drapper, virtus, etc.). Front-end features and layout were developed using SCSS and CoffeeScript. Deploying was made using capistrano. Extensive used of the git flow model. Also worked with sidekiq and resque providing good know how on performing background jobs.
+        \item Built a solution using ASP.NET Web API. The goal was to provide a more straightforward way to communicate with a DLL that served as a way of interacting with SAGE Next accounting system.
+    \end{itemize}
+
+    {\sl\bf Technical Analyst, Deloitte Portugal} \hfill 01/04/2011 to 30/04/2012
+    \begin{itemize}  \itemsep -2pt % reduce space between items
+        \item Worked on the renovation of the entire application framework of a bank. I was part of the integration initiative ensuring automated communication of information received and sent to major payment system.
+        \item I developed components using Oracle SOA Suite, database components using Oracle PL/SQL and application components based on Java.
+    \end{itemize}
+
+    {\sl\bf Software developer, NDrive Navigation Systems S.A.} \hfill 01/10/2009 to 28/02/2011
+     \begin{itemize}  \itemsep -2pt %reduce space between items
+         \item During my master thesis I developed a fully customizable web store that can be easily integrated in existing websites (NDrive's Partner Program). This allowed me to develop my expertise within Django framework. Accordingly, it allowed me to gain experience in Python and object-oriented programming.
+         \item After presenting my thesis, I was mainly allocated to an in-app purchases and licensing system back-end (Django and PostgreSQL). I implemented critical features (payment system, product dependencies, product updates) and helped improve server performance (50\% less DB queries).
+        \item Integrated various in-house heterogeneous systems using message queues (RabbitMQ).
+        \item Active role in implementing a build and packaging management system. Allowed me get experience using Django Celery (a distributed tasks server).
+        \item Participated in continuous deployment  environment, highly test aware. Every deploy to production (roughly once a day) required peer review and proper automated testing (using unittest and nose).
+     \end{itemize}
+
+    {\sl\bf Computer systems designer and analyst, BioStrument S.A.} \hfill 01/09/2007 to 30/09/2009
+     \begin{itemize}  \itemsep -2pt %reduce space between items
+         \item Collected requirements, designed, implemented and maintained an information system for sensory analysis laboratories using PHP and MySQL.
+         \item Successfully implemented a tool to build highly customizable forms and wizards. Managed to get a 300\% productivity boost in the sensory testing process (the old process was based on paper).
+        \item I successfully used Doctrine (a PHP ORM) and changed the company's administration opinion about using open-source packages to reduce implementation effort.
+     \end{itemize}
+
+\section{EDUCATION}
+    {\sl\bf Node.js Training}\\
+    % \sl will be bold italic in New Century Schoolbook (or any postscript font)
+    % and just slanted in Computer Modern (default) font
+    ISPGaya - Formação IT, Avenida dos Descobrimentos, 333, 4400-103 Santa Marinha\\
+    Ended: 26 April 2014\\
+    Participated on a 40 hours Node.js training. Got me introduced to Node.js and produced a small project that led to the metrica and metrica-deamon applications.\\
+    Final classification 20 in 20.
+
+    {\sl\bf Masters in Informatics and Computing Engineering}\\
+    % \sl will be bold italic in New Century Schoolbook (or any postscript font)
+    % and just slanted in Computer Modern (default) font
+    Faculty of Engineering of the University of Porto, Rua do Dr. Roberto Frias, 4200-464\\
+    Ended: 30 September 2010\\
+    5 year programme, including a 6 month internship, on software engineering, software architecture, algorithms \& data structures, project management, development methodologies, databases, etc.\\
+    Final classification 13 in 20. Thesis classification was 17 in 20.
+
+\section{SKILLS}
+    {\sl\bf Languages \& Software:}
+        Ruby, Ruby on Rails, Oracle SOA Suite, Oracle PL/SQL, Django, Python, JavaScript (mostly jQuery), PHP, MySQL, PostgreSQL, AMQP, HTML and CSS.\\
+        Basic experience in C\#, C and Java.\\
+        Familiar with various development software methods, Scrum, Extreme Programming and Kanban.\\
+        Experience in version control systems, centralised (Subversion) and distributed (Git and Mercurial).\\
+        Good Linux (Debian based) system administrator knowledge.
+
+    {\sl\bf Others:}
+        Good knowledge about computer hardware. In every team I took part, I was considered the hardware consultant.\\
+        Good English writing and reading capabilities.\\
+        European Class B driving license.
+
+\end{resume}
+\end{document}
