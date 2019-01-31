@@ -1,2 +1,2 @@
 # curriculum-vitae
-My CV in LaTeX from factor.
+My CV in LaTeX form factor.
