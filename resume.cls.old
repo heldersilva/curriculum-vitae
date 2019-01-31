@@ -180,7 +180,7 @@
 % write docs to tell people how to use this
 
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{res}[2000/05/19 v1.4b Resume class]
+\ProvidesClass{resume}[2000/05/19 v1.4b Resume class]
 
 %\DeclareOption{11pt}{\renewcommand\@ptsize{1}}
 %\DeclareOption{12pt}{\renewcommand\@ptsize{2}}
@@ -772,14 +772,17 @@
 % with everything in the left of its column
 
 \@secpenalty = -500
-\topmargin 0pt
+\topmargin -12mm
 \headheight 0pt
 \headsep 0pt
-\textheight 9in
+%\textheight 265mm
+\textheight 290mm
 \parindent 0pt
-\topmargin 0in
-\oddsidemargin 0pt
-\evensidemargin 0pt
+\topmargin -0.85in
+\oddsidemargin -20mm
+\evensidemargin -20mm
+\textwidth=165mm
+%\textwidth=154mm
 \marginparwidth 0pt
 \parindent 0pt
 \parskip \baselineskip
@@ -789,7 +792,8 @@
 \parskip 0pt
 \partopsep 2pt plus 2pt
 \parsep 2pt plus 2pt
-\itemsep \parsep}
+\itemsep=0cm
+\parsep=0cm}
 
 \pagestyle{empty}  % don't want page numbers
 
